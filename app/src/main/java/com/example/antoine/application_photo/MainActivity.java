@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         vue = (ListView) findViewById(R.id.listView);
+        //bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 
         String[] nom = new String[]{"image1", "image2"};
