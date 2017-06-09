@@ -16,18 +16,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.activity_main);
+         setContentView(R.layout.activity_main);
 
 
-        //  vue = (ListView) findViewById(R.id.listView);
+        vue = (ListView) findViewById(R.id.listView);
 
-        //bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-        //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-        String[] nom = new String[]{"image1", "image2"};
+        String[] nom = new String[]{"img", "img2"};
 
         int[] num = new int[]{11, 12, 13, 14};
-        //  int[] image = { R.drawable.smileybase, R.drawable.smileybase};
+        int[] image = { R.drawable.smileybase, R.drawable.smileybase};
 
         ArrayList<Photo> myList = new ArrayList<>();
 /*
@@ -40,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             int imageId=i;
             int taille=i*10;
             int coordGPS=i*100;//CoordGPS et taille à implémenter
-            myList.add(new Photo(nom[i],imageId,taille,coordGPS));
+           // myList.add(new Photo(image[i],nom[i],imageId,taille,coordGPS));
         }
 
         Liste_Photo adapter = new Liste_Photo(this, myList);
