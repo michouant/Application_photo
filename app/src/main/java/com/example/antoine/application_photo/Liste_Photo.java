@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class Liste_Photo extends BaseAdapter{
 
-        ArrayList<Photo> myList = new ArrayList<contact_item>();
+        ArrayList<Photo> myList = new ArrayList<Photo>();
         Context context;
 
         // on passe le context afin d'obtenir un LayoutInflater pour utiliser row_layout.xml
